@@ -40,7 +40,7 @@ body{font-family:'Crimson Pro',serif;background:var(--cream);color:var(--dark);o
 .NavLink.active{color:#374df5}
 .NavLink-num{font-family:'Fira Code',monospace;font-size:10px;font-weight:500;color:#374df5;letter-spacing:0}
 .NavLogo{position:absolute;left:32px;top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:10px;text-decoration:none;cursor:pointer}
-.NavLogo-dot{width:8px;height:8px;border-radius:50%;background:#2dc066;animation:pulse 2s infinite}
+.NavLogo-image{height:34px;width:auto;display:block;object-fit:contain;}
 .NavLogo-text{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:#121212;letter-spacing:-.02em}
 .MobileToggle{display:none;position:absolute;right:24px;top:50%;transform:translateY(-50%);background:none;border:none;color:#121212;cursor:pointer}
 .platform-card{transition:transform .25s,box-shadow .25s}
@@ -82,8 +82,8 @@ body{font-family:'Crimson Pro',serif;background:var(--cream);color:var(--dark);o
 <!-- NAVIGATION -->
 <div id="MainNav" class="NavWrapper">
 <div class="NavLogo" onclick="goHome()">
-<div class="NavLogo-dot"></div>
-<span class="NavLogo-text">Rater<span style="color:#374df5">Job</span></span>
+    <img src="logo.png" alt="RaterJob Logo" class="NavLogo-image">
+    <span class="NavLogo-text">Rater<span style="color:#374df5">Job</span></span>
 </div>
 <button class="MobileToggle" onclick="document.querySelector('.HeaderNavigation').classList.toggle('open')" aria-label="Menu">
 <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
