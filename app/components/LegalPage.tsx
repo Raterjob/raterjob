@@ -33,8 +33,9 @@ export default function LegalPage({
 
       <footer className="legal-footer">
         <a href="/">© 2026 RaterJob</a>
-        <div className="roles-footer-links">
-          <a href="/privacy">Privacy Policy</a>
+<div className="roles-footer-links">
+        <a href="https://x.com/raterjob_pat" target="_blank" rel="noopener noreferrer">Follow me on X · @raterjob_pat ↗</a>
+        <a href="/privacy">Privacy Policy</a>
           <a href="/cookie-policy">Cookie Policy</a>
           <a href="/legal">Legal Notice</a>
           <ProtectedEmailButton className="protected-inline-email">Email RaterJob</ProtectedEmailButton>

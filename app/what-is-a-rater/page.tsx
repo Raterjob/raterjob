@@ -312,8 +312,7 @@ export default function WhatIsARaterPage() {
           </div>
           <div>
             <h3>Follow</h3>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube ↗</a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+            <a href="https://x.com/raterjob_pat" target="_blank" rel="noopener noreferrer">Follow me on X · @raterjob_pat ↗</a>
           </div>
         </div>
         <div className="roles-footer-bottom"><p>Referral links may earn a small bonus at no cost to you. Recommendations remain independent and availability can change by country and project.</p><span>© 2026 RaterJob</span></div>
