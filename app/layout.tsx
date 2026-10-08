@@ -1,148 +1,49 @@
-import { Analytics } from '@vercel/analytics/next'
-import type { Metadata, Viewport } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
-import './globals.css'
-
-const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
-})
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
-})
+import type { Metadata } from "next";
+import "./globals.css";
+import CookieNotice from "./components/CookieNotice";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://raterjob.com'),
-
-  title: {
-    default: 'RaterJob — Remote AI Training & Data Annotation Jobs',
-    template: '%s | RaterJob',
-  },
-
+  metadataBase: new URL("https://raterjob.com"),
+  title: "Remote Rater Jobs, AI Training & Data Annotation Platforms | RaterJob",
   description:
-    'Discover remote AI training, LLM evaluator, search evaluator, and data annotation jobs. Compare platforms, pay rates, application tips, and payment methods.',
-
-  applicationName: 'RaterJob',
-
-  authors: [
-    {
-      name: 'RaterJob',
-      url: 'https://raterjob.com',
-    },
-  ],
-
-  creator: 'RaterJob',
-  publisher: 'RaterJob',
-
-  keywords: [
-    'remote AI jobs',
-    'AI training jobs',
-    'LLM evaluator jobs',
-    'AI evaluator jobs',
-    'data annotation jobs',
-    'data annotator jobs',
-    'search engine evaluator jobs',
-    'AI rater jobs',
-    'remote rater jobs',
-    'freelance AI jobs',
-    'AI model training',
-    'Outlier AI',
-    'DataAnnotation',
-    'TELUS Digital',
-    'Appen',
-    'OneForma',
-  ],
-
-  alternates: {
-    canonical: '/',
-  },
-
+    "Compare remote rater jobs and AI training platforms for LLM evaluation, data annotation, search quality, transcription, translation, and prompt work.",
   openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    url: 'https://raterjob.com',
-    siteName: 'RaterJob',
-    title: 'RaterJob — Remote AI Training & Data Annotation Jobs',
+    title: "RaterJob: Remote AI Evaluation & Data Annotation",
     description:
-      'An independent guide to remote AI training, LLM evaluation, search evaluation, and data annotation jobs, including platforms, pay rates, application tips, and payment methods.',
-    images: [
-      {
-        url: '/images/cat-at-work.png',
-        width: 1200,
-        height: 630,
-        alt: 'RaterJob guide to remote AI training and data annotation jobs',
-      },
-    ],
+      "Compare remote AI training, LLM evaluation, data annotation, localization, prompt, and coding opportunities.",
+    url: "https://raterjob.com",
+    siteName: "RaterJob",
+    type: "website",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "RaterJob: Remote AI Evaluation & Data Annotation" }],
   },
-
   twitter: {
-    card: 'summary_large_image',
-    title: 'RaterJob — Remote AI Training & Data Annotation Jobs',
+    card: "summary_large_image",
+    title: "RaterJob: Remote AI Evaluation & Data Annotation",
     description:
-      'Compare remote AI training and data annotation platforms, pay rates, application tips, and payment methods.',
-    images: ['/images/cat-at-work.png'],
+      "Compare remote AI training, LLM evaluation, data annotation, localization, prompt, and coding opportunities.",
+    images: ["/og.png"],
   },
-
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-      'max-video-preview': -1,
-    },
-  },
-
-  category: 'Jobs and Career',
-
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: [{ url: "/favicon-rounded.png", type: "image/png", sizes: "512x512" }],
+    shortcut: "/favicon-rounded.png",
+    apple: "/favicon-rounded.png",
   },
-}
-
-export const viewport: Viewport = {
-  colorScheme: 'light dark',
-  themeColor: [
-    {
-      media: '(prefers-color-scheme: light)',
-      color: '#f0eedf',
-    },
-    {
-      media: '(prefers-color-scheme: dark)',
-      color: '#121212',
-    },
-  ],
-}
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body className="font-sans antialiased">
+    <html lang="en">
+      <head>
+        <link href="/roles-fonts.css" rel="stylesheet" />
+      </head>
+      <body>
         {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
+        <CookieNotice />
       </body>
     </html>
-  )
+  );
 }

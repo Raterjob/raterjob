@@ -3,30 +3,33 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RaterJob — LLM Evaluator & Data Annotator Platform Guide</title>
+<title>RaterJob: Remote Rater Jobs & AI Training Job Platforms</title>
 <meta name="description" content="Discover the best remote AI training, LLM evaluator, and data annotation jobs. Compare top platforms, pay rates, application tips, and payment methods.">
 
 <meta name="robots" content="index, follow">
 
-<meta property="og:title" content="RaterJob — LLM Evaluator & Data Annotator Platform Guide">
+<meta property="og:title" content="RaterJob: Remote Rater Jobs & AI Training Job Platforms">
 <meta property="og:description" content="Find the best remote AI training and data annotation jobs with honest reviews, pay rates, and application guides.">
 <meta property="og:type" content="website">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="RaterJob — LLM Evaluator & Data Annotator Platform Guide">
+<meta name="twitter:title" content="RaterJob: Remote Rater Jobs & AI Training Job Platforms">
 <meta name="twitter:description" content="Find the best remote AI training, LLM evaluator, search evaluator, and data annotation jobs. Compare Outlier, DataAnnotation, Alignerr, Mercor, Telus, Appen, and more with pay rates, application tips, and payment methods.">
+<link rel="icon" href="/favicon-rounded.png" type="image/png" sizes="512x512">
+<link rel="shortcut icon" href="/favicon-rounded.png" type="image/png">
+<link rel="apple-touch-icon" href="/favicon-rounded.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
-tailwind.config={theme:{extend:{colors:{cream:'#f0eedf','cream-dark':'#e4e1ce',dark:'#121212','dark-mid':'#1a1a1a','dark-card':'#222222',navy:'#0f1b33',blue:'#374df5','blue-light':'#5a6ff7',green:'#1a9d4e','green-light':'#2dc066','warm-gray':'#6b6555'},fontFamily:{heading:['Space Grotesk','sans-serif'],body:['Crimson Pro','serif'],mono:['Fira Code','monospace']}}}}
+tailwind.config={theme:{extend:{colors:{cream:'#f0eedf','cream-dark':'#e4e1ce',dark:'#121212','dark-mid':'#1a1a1a','dark-card':'#222222',navy:'#0f1b33',blue:'#374df5','blue-light':'#5a6ff7',green:'#1a9d4e','green-light':'#2dc066','warm-gray':'#6b6555'},fontFamily:{heading:['Space Grotesk','sans-serif'],body:['Space Grotesk','sans-serif'],mono:['Fira Code','monospace']}}}}
 </script>
 <style>
 :root{--cream:#f0eedf;--dark:#121212;--blue:#374df5;--green:#1a9d4e}
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:'Crimson Pro',serif;background:var(--cream);color:var(--dark);overflow-x:hidden}
+body{font-family:'Space Grotesk',sans-serif;background:var(--cream);color:var(--dark);overflow-x:hidden}
 .emBGG{display:flex;-webkit-box-align:center;align-items:center;gap:8px;padding:12px 18px;background:#374df5;text-transform:uppercase;white-space:nowrap;word-spacing:4px;letter-spacing:-0.03px;font-size:16px;line-height:1;color:#fff;transition:0.2s;font-family:'Space Grotesk',sans-serif;font-weight:600;border:none;cursor:pointer;text-decoration:none;border-radius:0}
 .emBGG:hover{background:#2c3dd4;transform:translateY(-1px);box-shadow:0 4px 16px rgba(55,77,245,.3)}
 .emBGG-card{display:flex;-webkit-box-align:center;align-items:center;gap:8px;padding:12px 18px;background:#374df5;text-transform:uppercase;white-space:nowrap;word-spacing:4px;letter-spacing:-0.03px;font-size:16px;line-height:1;color:#fff;transition:0.2s;font-family:'Space Grotesk',sans-serif;font-weight:600}
@@ -34,13 +37,14 @@ body{font-family:'Crimson Pro',serif;background:var(--cream);color:var(--dark);o
 .emBGG-outline:hover{background:#374df5;color:#fff}
 .NavWrapper{position:fixed;top:0;left:0;right:0;z-index:100;background:#f0eedf;border-bottom:1px solid rgba(18,18,18,.06);transition:box-shadow .3s}
 .NavWrapper.scrolled{box-shadow:0 2px 20px rgba(18,18,18,.06)}
-.HeaderNavigation{display:flex;align-items:center;justify-content:center;gap:36px;padding:18px 32px;position:relative}
+.HeaderNavigation{display:flex;align-items:center;justify-content:center;gap:24px;padding:18px 28px;position:relative}
 .NavLink{display:inline-flex;align-items:center;gap:8px;font-family:'Space Grotesk',sans-serif;font-weight:400;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#121212;text-decoration:none;transition:color .2s;padding:4px 0;cursor:pointer}
 .NavLink:hover{color:#374df5}
 .NavLink.active{color:#374df5}
 .NavLink-num{font-family:'Fira Code',monospace;font-size:10px;font-weight:500;color:#374df5;letter-spacing:0}
 .NavLogo{position:absolute;left:32px;top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:10px;text-decoration:none;cursor:pointer}
-.NavLogo-image{height:34px;width:auto;display:block;object-fit:contain;}
+.NavLogo-image{height:36px;width:36px;display:block;object-fit:cover;padding:2px;border-radius:10px;background:linear-gradient(145deg,#fff,#eceef5);border:1px solid rgba(15,27,51,.08);box-shadow:0 5px 13px rgba(15,27,51,.16),inset 0 1px 0 rgba(255,255,255,.95);transition:transform .25s ease,box-shadow .25s ease}
+.NavLogo:hover .NavLogo-image{transform:translateY(-1px) scale(1.025);box-shadow:0 7px 17px rgba(15,27,51,.2),inset 0 1px 0 rgba(255,255,255,.95)}
 .NavLogo-text{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:#121212;letter-spacing:-.02em}
 .MobileToggle{display:none;position:absolute;right:24px;top:50%;transform:translateY(-50%);background:none;border:none;color:#121212;cursor:pointer}
 .platform-card{transition:transform .25s,box-shadow .25s}
@@ -66,6 +70,163 @@ body{font-family:'Crimson Pro',serif;background:var(--cream);color:var(--dark);o
 .back-link:hover{color:#2c3dd4}
 .plat-ref{font-family:'Fira Code',monospace;font-size:12px;color:#374df5;text-decoration:none;transition:color .2s}
 .plat-ref:hover{color:#5a6ff7}
+/* RaterJob UI refresh. Update the featured job in the script at the end of this file. */
+#scrollProgress{position:fixed;inset:0 auto auto 0;height:3px;width:0;background:linear-gradient(90deg,#374df5,#2dc066);z-index:300;box-shadow:0 0 16px rgba(55,77,245,.55)}
+.NavWrapper{top:0;left:0;right:0;width:100%;transform:none;border:0;border-bottom:1px solid rgba(15,27,51,.12);background:rgba(240,238,223,.94);backdrop-filter:blur(14px);box-shadow:none;border-radius:0;overflow:visible}
+.NavWrapper.scrolled{box-shadow:0 8px 24px rgba(15,27,51,.07)}
+.HeaderNavigation{padding:15px max(28px,calc((100vw - 1180px)/2))}
+.news-ticker{position:fixed;top:86px;left:50%;z-index:98;width:min(980px,calc(100% - 64px));transform:translateX(-50%);display:flex;align-items:stretch;height:38px;overflow:hidden;background:#121212;color:#fff;border:1px solid rgba(255,255,255,.12);box-shadow:0 12px 30px rgba(18,18,18,.14)}
+.ticker-label{display:flex;align-items:center;gap:8px;flex:0 0 auto;padding:0 16px;background:#374df5;font-family:'Space Grotesk',sans-serif;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;z-index:2}
+.ticker-label::before{content:'';width:7px;height:7px;border-radius:50%;background:#fff;box-shadow:0 0 0 5px rgba(255,255,255,.14);animation:pulse 1.6s ease-in-out infinite}
+.ticker-window{display:flex;align-items:center;overflow:hidden;white-space:nowrap;flex:1}
+.ticker-track{display:flex;width:max-content;animation:tickerMove 22s linear infinite;font-family:'Fira Code',monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase}
+.ticker-item{padding:0 42px;display:inline-flex;align-items:center;gap:28px}
+.ticker-item::after{content:'◆';font-size:8px;color:#5a6ff7}
+.news-ticker:hover .ticker-track{animation-play-state:paused}
+@keyframes tickerMove{to{transform:translateX(-50%)}}
+#hero{padding-top:132px!important;background-image:none!important;background-size:auto!important}
+#hero::after{content:'';position:absolute;width:300px;height:300px;right:-150px;top:28%;border:1px solid rgba(55,77,245,.1);border-radius:50%;opacity:.55}
+.hero-geometry{position:absolute;inset:108px 0 32px;z-index:0;pointer-events:none;opacity:.18}
+.hero-orbit{position:absolute;display:block;border:1px solid rgba(55,77,245,.2);border-radius:50%;animation:heroOrbit 30s linear infinite}
+.hero-orbit::before{content:'';position:absolute;width:8px;height:8px;top:8%;left:21%;border-radius:50%;background:#374df5;box-shadow:0 0 22px rgba(55,77,245,.55)}
+.hero-orbit-b::before{background:#1a9d4e;box-shadow:0 0 18px rgba(26,157,78,.55)}
+.hero-orbit-a{width:520px;height:520px;left:-210px;top:2%;box-shadow:inset 0 0 0 92px rgba(55,77,245,.018),inset 0 0 0 184px rgba(55,77,245,.018)}
+.hero-orbit-b{width:420px;height:420px;right:-145px;bottom:1%;animation-direction:reverse;animation-duration:24s;box-shadow:inset 0 0 0 72px rgba(26,157,78,.018),inset 0 0 0 144px rgba(26,157,78,.018)}
+@keyframes heroOrbit{to{transform:rotate(360deg)}}
+.dark-animated{position:relative!important;isolation:isolate;overflow:hidden!important}
+.dark-animated>div:not(.dark-geometry){position:relative;z-index:2}
+.dark-animated::before{content:'';position:absolute;inset:0;z-index:0;opacity:.36;background-image:radial-gradient(rgba(90,111,247,.34) 1px,transparent 1px);background-size:26px 26px;mask-image:linear-gradient(105deg,transparent 8%,#000 48%,transparent 92%);animation:gridDrift 20s linear infinite}
+.dark-animated::after{content:'';position:absolute;z-index:0;width:540px;height:540px;border:1px solid rgba(90,111,247,.18);border-radius:50%;right:-230px;top:12%;box-shadow:inset 0 0 0 88px rgba(90,111,247,.018),inset 0 0 0 176px rgba(90,111,247,.018);animation:spinSlow 32s linear infinite}
+.dark-geometry{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
+.geo-square,.geo-ring,.geo-cross{position:absolute;display:block}
+.geo-square{width:56px;height:56px;border:1px solid rgba(90,111,247,.34);left:6%;top:13%;transform:rotate(18deg);animation:geoFloat 8s ease-in-out infinite}
+.geo-ring{width:118px;height:118px;border:1px solid rgba(45,192,102,.28);border-radius:50%;right:7%;bottom:10%;animation:geoFloat 10s -3s ease-in-out infinite}
+.geo-ring::after{content:'';position:absolute;width:8px;height:8px;background:#2dc066;border-radius:50%;top:10px;left:23px;box-shadow:0 0 22px rgba(45,192,102,.8)}
+.geo-cross{left:9%;bottom:17%;width:64px;height:64px;opacity:.42;background:linear-gradient(90deg,transparent 29px,#374df5 30px,#374df5 33px,transparent 34px),linear-gradient(transparent 29px,#374df5 30px,#374df5 33px,transparent 34px);animation:spinSlow 20s linear infinite}
+@keyframes gridDrift{to{background-position:52px 26px}}
+@keyframes spinSlow{to{transform:rotate(360deg)}}
+@keyframes geoFloat{0%,100%{transform:translateY(0) rotate(18deg)}50%{transform:translateY(-22px) rotate(34deg)}}
+.platform-card{position:relative!important;display:flex;flex-direction:column;background:#f8f6ed!important;border:1px solid rgba(90,111,247,.14)!important;border-radius:14px;color:#0f1b33!important;min-height:100%;box-shadow:0 8px 24px rgba(0,0,0,.1)}
+.platform-card::before{display:none!important}
+.platform-card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(0,0,0,.14)}
+.platform-card .emBGG-card{background:transparent!important;color:#0f1b33!important;border-bottom:1px solid rgba(55,77,245,.1);padding:20px 24px;justify-content:space-between}
+.platform-card .emBGG-card::after{display:none!important}
+.platform-card .emBGG-card span{font-size:22px!important;font-weight:800!important;line-height:1.05;letter-spacing:-.035em}
+.platform-card>.p-6{display:flex;flex:1;flex-direction:column;padding:28px!important}
+#hero>div>p{font-size:1.125rem!important;line-height:1.6}
+#platforms>div>div:first-child>p{font-size:1rem!important;line-height:1.6}
+.platform-card p{color:#6b6555!important}
+.platform-card .tag{background:rgba(55,77,245,.08)!important;color:#374df5!important;border:1px solid rgba(55,77,245,.12)}
+.platform-card .community-note{margin:0 0 20px;padding:12px 14px;border-left:3px solid #374df5;background:rgba(55,77,245,.055);font-family:'Space Grotesk',sans-serif;font-size:12px;line-height:1.55;color:#48506a!important}
+.platform-card .community-note strong{color:#0f1b33;text-transform:uppercase;letter-spacing:.08em;font-size:10px}
+.platform-card .flex.items-center.justify-between{margin-top:auto;gap:14px}
+.platform-card .flex.items-center.justify-between>span{color:#0f1b33!important}
+.platform-apply{display:inline-flex!important;align-items:center;justify-content:center;min-width:132px;padding:12px 16px;background:#374df5;color:#fff!important;font-family:'Space Grotesk',sans-serif!important;font-size:12px!important;font-weight:700!important;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 9px 22px rgba(55,77,245,.28);transition:transform .2s,background .2s,box-shadow .2s!important}
+.platform-apply:hover{background:#2237e2!important;transform:translateY(-2px);box-shadow:0 14px 28px rgba(55,77,245,.38)}
+.platform-apply::after{display:none!important}
+.rater-intro{position:relative;overflow:hidden;padding:84px 24px;background:#f0eedf;background-image:radial-gradient(rgba(55,77,245,.13) 1px,transparent 1px);background-size:22px 22px}
+.rater-intro::after{content:'';position:absolute;width:390px;height:390px;right:-150px;top:-120px;border:1px solid rgba(55,77,245,.16);border-radius:50%;box-shadow:inset 0 0 0 62px rgba(55,77,245,.022),inset 0 0 0 124px rgba(55,77,245,.022)}
+.rater-intro-wrap{position:relative;z-index:2;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(300px,.8fr);gap:70px;align-items:center;max-width:1120px;margin:0 auto}
+.rater-intro-kicker{display:block;margin-bottom:14px;font-family:'Fira Code',monospace;font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#374df5}
+.rater-intro h2{max-width:690px;font-family:'Space Grotesk',sans-serif;font-size:clamp(3rem,7vw,6.4rem);font-weight:800;line-height:.9;letter-spacing:-.065em;color:#0f1b33}
+.rater-intro-copy p{max-width:650px;margin:24px 0 28px;font-size:18px;line-height:1.65;color:#6b6555}
+.rater-role-preview{display:grid;gap:1px;background:rgba(15,27,51,.13);border:1px solid rgba(15,27,51,.13);box-shadow:0 22px 55px rgba(15,27,51,.1)}
+.rater-role-preview span{display:flex;align-items:center;justify-content:flex-start;gap:18px;padding:17px 20px;background:rgba(255,255,255,.9);font-size:13px;font-weight:600;color:#0f1b33}
+.rater-role-preview span::before{display:grid;place-items:center;flex:0 0 30px;width:30px;height:30px;background:rgba(55,77,245,.08);color:#374df5;font-size:17px}
+.rater-role-preview span:nth-child(1)::before{content:'⌕'}
+.rater-role-preview span:nth-child(2)::before{content:'✦'}
+.rater-role-preview span:nth-child(3)::before{content:'▦'}
+.rater-role-preview span:nth-child(4)::before{content:'⌘'}
+footer{position:relative!important;background:#0f1b33!important;color:#fff!important;border-top:1px solid rgba(255,255,255,.08);overflow:hidden}
+footer::before{content:'';position:absolute;inset:0;background-image:radial-gradient(rgba(90,111,247,.22) 1px,transparent 1px);background-size:22px 22px;mask-image:linear-gradient(90deg,#000,transparent 48%);opacity:.6}
+footer>div{position:relative;z-index:1}
+footer span,footer p,footer a{color:rgba(255,255,255,.62)!important}
+footer .text-blue,footer span[style*="#374df5"]{color:#7d8bff!important}
+.conversion-cta{padding:54px 24px!important;min-height:0!important}
+.conversion-cta .cta-inner{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1.3fr) auto;align-items:center;gap:44px;text-align:left}
+.conversion-cta h2{font-size:clamp(2.25rem,5vw,4.5rem);line-height:.92;letter-spacing:-.055em;max-width:760px}
+.conversion-cta p{max-width:640px;margin:16px 0 0!important;font-size:18px;line-height:1.45}
+.conversion-cta .cta-actions{display:flex;flex-direction:column;align-items:stretch;gap:10px;min-width:210px}
+.conversion-cta .cta-actions a{justify-content:center}
+.about-professional{position:relative;overflow:hidden;padding:162px 24px 86px;background:#f0eedf;background-image:radial-gradient(rgba(55,77,245,.14) 1px,transparent 1px);background-size:24px 24px}
+.about-professional::before{content:'';position:absolute;width:520px;height:520px;right:-210px;top:84px;border:1px solid rgba(55,77,245,.18);border-radius:50%;box-shadow:inset 0 0 0 84px rgba(55,77,245,.025),inset 0 0 0 168px rgba(55,77,245,.025);animation:spinSlow 34s linear infinite}
+.about-wrap{position:relative;z-index:2;max-width:1180px;margin:0 auto}
+.about-header{max-width:900px;margin:64px 0 58px}
+.about-kicker{display:block;margin-bottom:16px;font-family:'Space Grotesk',sans-serif;font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#374df5}
+.about-header h1{font-family:'Space Grotesk',sans-serif;font-weight:800;font-size:clamp(3.4rem,8vw,7.5rem);line-height:.88;letter-spacing:-.07em;color:#0f1b33}
+.about-header p{max-width:720px;margin-top:24px;font-family:'Space Grotesk',sans-serif;font-size:14px;line-height:1.65;letter-spacing:.1em;text-transform:uppercase;color:#6b6555}
+.about-layout{display:grid;grid-template-columns:minmax(320px,.82fr) minmax(0,1.45fr);gap:26px;align-items:stretch}
+.about-profile{position:relative;overflow:hidden;display:flex;flex-direction:column;min-height:650px;padding:30px;background:#101a31;color:#fff;box-shadow:0 24px 70px rgba(15,27,51,.2)}
+.about-profile::after{content:'HUMAN\A IN THE LOOP';white-space:pre;position:absolute;right:-24px;bottom:205px;font-family:'Space Grotesk',sans-serif;font-size:48px;font-weight:800;line-height:.84;color:rgba(90,111,247,.13);transform:rotate(-90deg)}
+.about-art{position:relative;height:300px;margin-bottom:32px;border:1px solid rgba(255,255,255,.1);background:radial-gradient(circle at 50% 50%,rgba(55,77,245,.22),transparent 54%),linear-gradient(135deg,rgba(255,255,255,.03),transparent)}
+.about-art .orbit{position:absolute;border:1px solid rgba(125,139,255,.56);border-radius:50%;animation:spinSlow 18s linear infinite}
+.about-art .orbit-one{width:178px;height:178px;left:50%;top:50%;transform:translate(-50%,-50%)}
+.about-art .orbit-two{width:112px;height:112px;left:50%;top:50%;transform:translate(-50%,-50%);border-color:rgba(45,192,102,.5);animation-direction:reverse;animation-duration:12s}
+.about-art .axis{position:absolute;inset:14%;background:linear-gradient(90deg,transparent calc(50% - .5px),rgba(255,255,255,.16) 50%,transparent calc(50% + .5px)),linear-gradient(transparent calc(50% - .5px),rgba(255,255,255,.16) 50%,transparent calc(50% + .5px))}
+.about-art .core{position:absolute;left:50%;top:50%;width:24px;height:24px;transform:translate(-50%,-50%) rotate(45deg);background:#374df5;box-shadow:0 0 0 12px rgba(55,77,245,.12),0 0 38px rgba(55,77,245,.7)}
+.about-art .node{position:absolute;width:8px;height:8px;border-radius:50%;background:#2dc066;box-shadow:0 0 18px rgba(45,192,102,.8)}
+.about-art .node-a{left:18%;top:25%;animation:geoFloat 7s ease-in-out infinite}
+.about-art .node-b{right:17%;bottom:21%;animation:geoFloat 9s -2s ease-in-out infinite}
+.about-profile-label{position:relative;z-index:1;font-family:'Fira Code',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#7d8bff}
+.about-tags{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 26px}
+.about-tags span{padding:7px 10px;border:1px solid rgba(125,139,255,.24);background:rgba(90,111,247,.12);font-family:'Space Grotesk',sans-serif;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#c8ceff}
+.about-stats{position:relative;z-index:1;display:grid;gap:8px;margin-top:auto}
+.about-stat{display:flex;align-items:center;justify-content:space-between;padding:15px 0;border-top:1px solid rgba(255,255,255,.09)}
+.about-stat strong{font-family:'Space Grotesk',sans-serif;font-size:19px;color:#fff}
+.about-stat span{font-family:'Space Grotesk',sans-serif;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.42)}
+.about-copy{display:grid;gap:18px}
+.about-panel{padding:34px;border:1px solid rgba(15,27,51,.08);background:rgba(255,255,255,.78);backdrop-filter:blur(12px);box-shadow:0 16px 48px rgba(15,27,51,.07)}
+.about-panel h2{margin-bottom:14px;font-family:'Space Grotesk',sans-serif;font-size:20px;color:#0f1b33}
+.about-panel p{font-size:16px;line-height:1.65;color:#6b6555}
+.about-panel p+p{margin-top:14px}
+.about-panel-dark{background:#0f1b33;color:#fff}
+.about-panel-dark h2{color:#fff}
+.about-panel-dark p{color:rgba(255,255,255,.64)}
+.about-contact{display:flex;align-items:center;justify-content:space-between;gap:22px;background:#374df5;border-color:#374df5;color:#fff}
+.about-contact h2,.about-contact p,.about-contact a,.about-contact button{color:#fff!important}
+.about-contact a,.about-contact button{flex:0 0 auto;border:0;border-bottom:1px solid rgba(255,255,255,.55);padding:0;background:transparent;font-family:'Space Grotesk',sans-serif;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;cursor:pointer}
+.site-footer{position:relative;padding:0 24px 26px!important;background:#f0eedf!important;color:#0f1b33!important;border-top:0;overflow:hidden}
+.site-footer::before{content:'';position:absolute;inset:0;background-image:radial-gradient(rgba(55,77,245,.14) 1px,transparent 1px);background-size:22px 22px;mask-image:linear-gradient(90deg,#000,transparent 68%);opacity:.72}
+.footer-wrap{position:relative;z-index:1;max-width:1180px;margin:0 auto}
+.footer-pitch{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(280px,.75fr);gap:48px;align-items:center;padding:68px 0 58px;border-top:1px solid rgba(15,27,51,.45);border-bottom:1px solid rgba(15,27,51,.14)}
+.footer-pitch h2{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(2.4rem,5.5vw,5.1rem);line-height:.92;letter-spacing:-.06em;color:#0f1b33}
+.footer-pitch p{max-width:430px;margin:0 0 22px;font-size:18px;line-height:1.45;color:#6b6555!important}
+.footer-pitch .emBGG{display:inline-flex;color:#fff!important}
+.footer-main{display:grid;grid-template-columns:1.35fr .8fr .9fr .8fr;gap:34px;padding:42px 0 34px}
+.footer-brand{font-family:'Space Grotesk',sans-serif;font-size:25px;font-weight:800;color:#0f1b33!important;text-decoration:none}
+.footer-main h3{margin-bottom:15px;font-family:'Fira Code',monospace;font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#374df5}
+.footer-main p{max-width:250px;margin-top:14px;font-size:15px;line-height:1.45;color:#6b6555!important}
+.footer-links{display:grid;gap:9px}
+.footer-links a{width:max-content;font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:.04em;text-decoration:none;color:#0f1b33!important;transition:color .2s}
+.footer-links a:hover{color:#374df5!important}
+.footer-email{font-weight:700!important;border-bottom:1px solid rgba(55,77,245,.35)}
+.protected-email{width:max-content;border:0;border-bottom:1px solid rgba(55,77,245,.35);padding:0;background:transparent;color:#0f1b33;font-family:'Space Grotesk',sans-serif;font-size:12px;font-weight:700;letter-spacing:.04em;text-align:left;cursor:pointer}
+.protected-email:hover{color:#374df5}
+.contact-details{display:grid;gap:8px;margin:18px 0 22px;padding:16px 18px;border-left:3px solid #374df5;background:rgba(55,77,245,.055)}
+.contact-details span{font-size:13px;color:#0f1b33!important}
+.contact-details span::before{content:'✓';margin-right:9px;color:#1a9d4e;font-weight:800}
+.revolut-feature{position:relative;overflow:hidden;display:grid;grid-template-columns:230px minmax(0,1fr) auto;gap:28px;align-items:center;margin-top:24px;padding:28px 30px;border:1px solid rgba(15,27,51,.16);background:#0f1b33;color:#fff;box-shadow:0 18px 46px rgba(15,27,51,.16)}
+.revolut-feature::after{content:'';position:absolute;width:210px;height:210px;right:-92px;top:-96px;border:1px solid rgba(125,139,255,.35);border-radius:50%;box-shadow:inset 0 0 0 38px rgba(90,111,247,.05),inset 0 0 0 76px rgba(90,111,247,.04)}
+.revolut-card-image{position:relative;z-index:1;display:block;width:100%;height:150px;object-fit:contain;filter:drop-shadow(0 18px 28px rgba(0,0,0,.38));transform:rotate(-4deg);transition:transform .3s ease}
+.revolut-feature:hover .revolut-card-image{transform:rotate(-1deg) translateY(-4px)}
+.revolut-copy{position:relative;z-index:1}
+.revolut-copy>span{display:block;margin-bottom:7px;font-family:'Fira Code',monospace;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#7d8bff}
+.revolut-copy h3{margin:0 0 7px;font-size:24px;line-height:1.08;color:#fff}
+.revolut-copy p{margin:0;max-width:650px;font-size:14px;line-height:1.55;color:rgba(255,255,255,.62)!important}
+.revolut-copy small{display:block;margin-top:8px;font-size:10px;line-height:1.45;color:rgba(255,255,255,.4)}
+.revolut-feature .emBGG{position:relative;z-index:1;display:inline-flex}
+.footer-bottom{display:flex;align-items:center;justify-content:space-between;gap:30px;padding-top:22px;border-top:1px solid rgba(15,27,51,.14)}
+.footer-bottom p{max-width:780px;font-size:12px;line-height:1.5;color:#6b6555!important}
+.footer-bottom span{font-family:'Fira Code',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#374df5!important;white-space:nowrap}
+.footer-legal-links{display:flex;flex-wrap:wrap;gap:10px 16px;margin-top:14px}
+.footer-legal-links a{font-family:'Space Grotesk',sans-serif;font-size:10px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:#0f1b33!important;text-decoration:none}
+.footer-legal-links a:hover{color:#374df5!important}
+.cookie-banner{position:fixed;z-index:220;right:22px;bottom:22px;display:none;align-items:center;gap:22px;width:min(620px,calc(100% - 44px));padding:18px 20px;border:1px solid rgba(55,77,245,.24);background:rgba(15,27,51,.97);color:#fff;box-shadow:0 20px 55px rgba(15,27,51,.28);backdrop-filter:blur(16px)}
+.cookie-banner.show{display:flex}
+.cookie-banner strong{display:block;margin-bottom:5px;color:#fff;font-size:13px}
+.cookie-banner p{margin:0;color:rgba(255,255,255,.68)!important;font-size:12px;line-height:1.5}
+.cookie-banner a{display:inline-block;margin-top:6px;color:#aab3ff!important;font-size:11px}
+.cookie-banner button{flex:0 0 auto;padding:11px 16px;border:0;background:#374df5;color:#fff;font-family:'Space Grotesk',sans-serif;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
 @media(max-width:900px){
 .NavWrapper{display:flex;flex-wrap:wrap;align-items:center;padding:14px 20px}
 .NavLogo{position:relative;left:auto;top:auto;transform:none;margin:0;padding:0;width:auto}
@@ -73,11 +234,40 @@ body{font-family:'Crimson Pro',serif;background:var(--cream);color:var(--dark);o
 .HeaderNavigation{order:3;flex-basis:100%;width:100%;flex-direction:column;gap:0;padding:12px 0 0;display:none}
 .HeaderNavigation.open{display:flex}
 .NavLink{padding:14px 0;border-bottom:1px solid rgba(18,18,18,.06);width:100%;justify-content:center}
+.news-ticker{top:78px;width:calc(100% - 32px)}
+.ticker-label{padding:0 11px;font-size:9px}
+.ticker-item{padding:0 24px}
+#hero{padding-top:154px!important}
+.conversion-cta .cta-inner,.footer-pitch,.about-layout,.rater-intro-wrap{grid-template-columns:1fr}
+.conversion-cta .cta-actions{width:100%;min-width:0}
+.about-profile{min-height:0}
+.footer-main{grid-template-columns:1fr 1fr}
+.hero-geometry{opacity:.5}.hero-orbit-a{left:-340px}.hero-orbit-b{display:none}
+.revolut-feature{grid-template-columns:190px 1fr}.revolut-feature .emBGG{grid-column:1/-1;width:max-content}
 }
-@media(prefers-reduced-motion:reduce){*{animation-duration:0s!important;transition-duration:0s!important}}
+@media(max-width:600px){
+.conversion-cta{padding:44px 20px!important}
+.conversion-cta .cta-inner{gap:30px}
+.about-professional{padding:148px 18px 64px}
+.about-header{margin:48px 0 38px}
+.about-profile,.about-panel{padding:24px}
+.about-art{height:250px}
+.about-contact{align-items:flex-start;flex-direction:column}
+.rater-intro{padding:62px 20px}
+.rater-intro-wrap{gap:38px}
+.site-footer{padding:0 20px 22px!important}
+.footer-pitch{padding:50px 0 42px;gap:28px}
+.footer-main{grid-template-columns:1fr;padding:34px 0 28px}
+.footer-bottom{align-items:flex-start;flex-direction:column}
+.cookie-banner{right:14px;bottom:14px;align-items:stretch;flex-direction:column;width:calc(100% - 28px)}
+.cookie-banner button{width:100%}
+.revolut-feature{grid-template-columns:1fr;padding:24px}.revolut-feature .emBGG{grid-column:auto}.revolut-card-image{width:min(240px,100%);height:140px;margin:0 auto}
+}
+@media(prefers-reduced-motion:reduce){*{animation-duration:0s!important;transition-duration:0s!important}.reveal{opacity:1!important;transform:none!important}}
 </style>
 </head>
 <body>
+<div id="scrollProgress" aria-hidden="true"></div>
 
 <!-- NAVIGATION -->
 <div id="MainNav" class="NavWrapper">
@@ -89,13 +279,23 @@ body{font-family:'Crimson Pro',serif;background:var(--cream);color:var(--dark);o
 <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
 </button>
 <nav class="HeaderNavigation" role="navigation">
-<div class="NavLink" data-nav="platforms" onclick="goHome('platforms')"><span class="NavLink-num">01</span><span>Platforms</span></div>
-<div class="NavLink" data-nav="guide" onclick="goHome('guide')"><span class="NavLink-num">02</span><span>Guide</span></div>
-<div class="NavLink" data-nav="tips" onclick="goHome('tips')"><span class="NavLink-num">03</span><span>Tips</span></div>
-<div class="NavLink" data-nav="payments" onclick="goPayments()"><span class="NavLink-num">04</span><span>Payments</span></div>
-<div class="NavLink" data-nav="about" onclick="goAbout()"><span class="NavLink-num">05</span><span>About</span></div>
+<div class="NavLink" data-nav="platforms" onclick="goHome('platforms')"><span class="NavLink-num">01</span><span>Job Platforms</span></div>
+<a class="NavLink" href="/what-is-a-rater" target="_top"><span class="NavLink-num">02</span><span>What Is a Rater?</span></a>
+<div class="NavLink" data-nav="guide" onclick="goHome('guide')"><span class="NavLink-num">03</span><span>Guide</span></div>
+<div class="NavLink" data-nav="tips" onclick="goHome('tips')"><span class="NavLink-num">04</span><span>Tips</span></div>
+<div class="NavLink" data-nav="payments" onclick="goPayments()"><span class="NavLink-num">05</span><span>Payments</span></div>
+<div class="NavLink" data-nav="about" onclick="goAbout()"><span class="NavLink-num">06</span><span>About</span></div>
 </nav>
 </div>
+<aside class="news-ticker" aria-label="Featured job opportunity">
+  <span class="ticker-label">Now Hiring</span>
+  <div class="ticker-window">
+    <div class="ticker-track" id="featuredJobTicker">
+      <span class="ticker-item">Featured opportunity loading</span>
+      <span class="ticker-item" aria-hidden="true">Featured opportunity loading</span>
+    </div>
+  </div>
+</aside>
 
 <!-- ===== MAIN PAGE ===== -->
 <div id="mainPage">
@@ -104,12 +304,13 @@ body{font-family:'Crimson Pro',serif;background:var(--cream);color:var(--dark);o
 <section id="hero" class="min-h-screen flex flex-col items-center justify-center px-6 pt-20 pb-16 relative overflow-hidden" style="background:#f0eedf">
 <div class="absolute top-20 right-[10%] w-72 h-72 rounded-full blur-3xl floating" style="background:rgba(55,77,245,.06)"></div>
 <div class="absolute bottom-32 left-[5%] w-96 h-96 rounded-full blur-3xl floating" style="background:rgba(26,157,78,.06);animation-delay:-2s"></div>
+<div class="hero-geometry" aria-hidden="true"><span class="hero-orbit hero-orbit-a"></span><span class="hero-orbit hero-orbit-b"></span></div>
 <div class="relative z-10 text-center max-w-3xl mx-auto">
-<span class="font-heading text-xs uppercase tracking-[.2em] text-blue mb-4 block">Remote LLM Evaluation & Data Annotation</span>
+<span class="font-heading text-xs uppercase tracking-[.2em] text-blue mb-4 block">Remote Rater Jobs, LLM Evaluation & Data Annotation</span>
 <h1 class="font-heading font-800 text-5xl md:text-7xl text-navy mb-6 leading-[1.05]">Get Paid to<br>Train <span class="text-blue">AI Models</span></h1>
-<p class="font-body text-xl md:text-2xl text-warm-gray mb-10 max-w-xl mx-auto leading-relaxed">An honest guide to the best platforms hiring remote LLM evaluators and data annotators worldwide &mdash; written by a professional rater.</p>
+<p class="font-body text-xl md:text-2xl text-warm-gray mb-10 max-w-xl mx-auto leading-relaxed">An honest guide from a rater with years of firsthand experience working with some of the world’s leading AI companies.</p>
 <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-<a href="#" onclick="goHome('platforms');return false;" class="emBGG">Browse Platforms</a>
+<a href="#" onclick="goHome('platforms');return false;" class="emBGG">Browse Job Platform</a>
 <a href="#" onclick="goHome('guide');return false;" class="emBGG-outline">Getting Started</a>
 </div>
 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-2xl mx-auto">
@@ -125,9 +326,9 @@ body{font-family:'Crimson Pro',serif;background:var(--cream);color:var(--dark);o
 <section id="platforms" class="py-20 md:py-28 px-6" style="background:#121212">
 <div class="max-w-6xl mx-auto">
 <div class="text-center mb-14 reveal">
-<span class="font-heading text-xs uppercase tracking-[.2em] text-blue">01 — Platforms</span>
-<h2 class="font-heading font-800 text-4xl md:text-5xl mt-2 mb-4 text-white">Platforms Hiring Now</h2>
-<p class="font-body text-lg text-white/40 max-w-2xl mx-auto">Platforms I've personally used or vetted. A few links are referral links &mdash; using them helps support the site at no cost to you, but it's totally optional.</p>
+<span class="font-heading text-xs uppercase tracking-[.2em] text-blue">01 · Job Platforms</span>
+<h2 class="font-heading font-800 text-4xl md:text-5xl mt-2 mb-4 text-white">Remote AI Job Platforms Hiring Now</h2>
+<p class="font-body text-lg text-white/40 max-w-2xl mx-auto">Compare job platforms for remote AI training, LLM evaluation, search quality rating, data annotation, language work, audio recording, and coding. A few links are referral links; using them supports the site at no cost to you.</p>
 </div>
 <div class="grid md:grid-cols-2 gap-6" id="mainPlatforms">
 <div class="platform-card border border-white/5 overflow-hidden reveal" style="background:#222"><div class="emBGG-card"><span class="font-heading text-sm">Outlier</span></div><div class="p-6"><p class="font-body text-sm text-white/40 mb-3">Scale AI's evaluation platform</p><div class="flex flex-wrap gap-2 mb-4"><span class="tag font-heading text-xs px-3 py-1 text-white/50" style="background:rgba(255,255,255,.06)">LLM Evaluation</span><span class="tag font-heading text-xs px-3 py-1 text-white/50" style="background:rgba(255,255,255,.06)">Coding</span><span class="tag font-heading text-xs px-3 py-1 text-white/50" style="background:rgba(255,255,255,.06)">Math</span></div><p class="font-body text-white/50 mb-5 leading-relaxed">Largest platform by volume. Evaluate model responses across writing, coding, reasoning. Domain specialisms pay significantly more.</p><div class="flex items-center justify-between"><span class="font-heading font-600 text-sm text-white">$15–$50/hr</span><a href="https://app.outlier.ai/expert/referrals/link/jVRTouTosIEqzw-6nWNWyw1obOs" target="_blank" rel="noopener" class="referral-link font-heading font-600 text-sm text-blue hover:text-blue-light transition">Apply &rarr;</a></div></div></div>
@@ -145,11 +346,32 @@ body{font-family:'Crimson Pro',serif;background:var(--cream);color:var(--dark);o
 <div class="platform-card border border-white/5 overflow-hidden" style="background:#222"><div class="emBGG-card"><span class="font-heading text-sm">Prolific</span></div><div class="p-6"><p class="font-body text-sm text-white/40 mb-3">Research participation and AI feedback</p><div class="flex flex-wrap gap-2 mb-4"><span class="tag font-heading text-xs px-3 py-1 text-white/50" style="background:rgba(255,255,255,.06)">Research</span><span class="tag font-heading text-xs px-3 py-1 text-white/50" style="background:rgba(255,255,255,.06)">AI Feedback</span><span class="tag font-heading text-xs px-3 py-1 text-white/50" style="background:rgba(255,255,255,.06)">Surveys</span></div><p class="font-body text-white/50 mb-5 leading-relaxed">Academic and AI research studies. Short sessions, reliable pay. Great for supplementing income.</p><div class="flex items-center justify-between"><span class="font-heading font-600 text-sm text-white">$10–$25/hr</span><a href="https://www.prolific.com/" target="_blank" rel="noopener" class="referral-link font-heading font-600 text-sm text-blue hover:text-blue-light transition">Apply &rarr;</a></div></div></div>
 <div class="platform-card border border-white/5 overflow-hidden" style="background:#222"><div class="emBGG-card"><span class="font-heading text-sm">Welocalize</span></div><div class="p-6"><p class="font-body text-sm text-white/40 mb-3">Translation and AI data services</p><div class="flex flex-wrap gap-2 mb-4"><span class="tag font-heading text-xs px-3 py-1 text-white/50" style="background:rgba(255,255,255,.06)">Translation</span><span class="tag font-heading text-xs px-3 py-1 text-white/50" style="background:rgba(255,255,255,.06)">Search Rating</span></div><p class="font-body text-white/50 mb-5 leading-relaxed">Translation and localization with search quality rating and AI evaluation.</p><div class="flex items-center justify-between"><span class="font-heading font-600 text-sm text-white">$14–$25/hr</span><a href="https://www.welocalize.com/careers/" target="_blank" rel="noopener" class="referral-link font-heading font-600 text-sm text-blue hover:text-blue-light transition">Apply &rarr;</a></div></div></div>
 <div class="platform-card border border-white/5 overflow-hidden" style="background:#222"><div class="emBGG-card"><span class="font-heading text-sm">RWS (TrainAI)</span></div><div class="p-6"><p class="font-body text-sm text-white/40 mb-3">AI data platform by RWS Group</p><div class="flex flex-wrap gap-2 mb-4"><span class="tag font-heading text-xs px-3 py-1 text-white/50" style="background:rgba(255,255,255,.06)">Annotation</span><span class="tag font-heading text-xs px-3 py-1 text-white/50" style="background:rgba(255,255,255,.06)">RLHF</span></div><p class="font-body text-white/50 mb-5 leading-relaxed">Annotation and RLHF tasks. Solid platform with consistent flow for multilingual contributors.</p><div class="flex items-center justify-between"><span class="font-heading font-600 text-sm text-white">$10–$25/hr</span><a href="https://www.rws.com/careers/" target="_blank" rel="noopener" class="referral-link font-heading font-600 text-sm text-blue hover:text-blue-light transition">Apply &rarr;</a></div></div></div>
+<div class="platform-card border border-white/5 overflow-hidden" style="background:#222"><div class="emBGG-card"><span class="font-heading text-sm">Meridial by Invisible</span></div><div class="p-6"><p class="font-body text-sm text-white/40 mb-3">Expert network for frontier AI training</p><div class="flex flex-wrap gap-2 mb-4"><span class="tag font-heading text-xs px-3 py-1 text-white/50">Domain Expert</span><span class="tag font-heading text-xs px-3 py-1 text-white/50">AI Evaluation</span><span class="tag font-heading text-xs px-3 py-1 text-white/50">Coding &amp; Linguistics</span></div><p class="font-body text-white/50 mb-5 leading-relaxed">A vetted contractor network matching specialists with frontier AI training projects.</p><div class="flex items-center justify-between"><span class="font-heading font-600 text-sm text-white">Project based</span><a href="https://www.meridial.ai/projects" target="_blank" rel="noopener" class="referral-link font-heading font-600 text-sm text-blue hover:text-blue-light transition">Apply &rarr;</a></div></div></div>
+<div class="platform-card border border-white/5 overflow-hidden" style="background:#222"><div class="emBGG-card"><span class="font-heading text-sm">Babel Audio</span></div><div class="p-6"><p class="font-body text-sm text-white/40 mb-3">Voice data and transcription for audio AI</p><div class="flex flex-wrap gap-2 mb-4"><span class="tag font-heading text-xs px-3 py-1 text-white/50">Audio Recording</span><span class="tag font-heading text-xs px-3 py-1 text-white/50">Transcription</span><span class="tag font-heading text-xs px-3 py-1 text-white/50">Conversation</span></div><p class="font-body text-white/50 mb-5 leading-relaxed">Remote speech recording and structured transcription projects for training audio AI systems.</p><div class="flex items-center justify-between"><span class="font-heading font-600 text-sm text-white">Per recorded hour</span><a href="https://www.babel.audio/" target="_blank" rel="noopener" class="referral-link font-heading font-600 text-sm text-blue hover:text-blue-light transition">Apply &rarr;</a></div></div></div>
+</div>
+</div>
+</section>
 
+<!-- WHAT IS A RATER -->
+<section class="rater-intro" aria-labelledby="rater-intro-title">
+<div class="rater-intro-wrap reveal">
+<div class="rater-intro-copy">
+<span class="rater-intro-kicker">Role guide · 12 career paths</span>
+<h2 id="rater-intro-title">What Is a Rater?</h2>
+<p>A rater uses human judgment to improve search engines, advertisements, AI models, language data, and digital experiences. Explore remote search quality, LLM evaluation, data annotation, translation, transcription, audio recording, prompt, and coding roles, plus the job platforms where you can apply.</p>
+<a href="/what-is-a-rater" target="_top" class="emBGG" style="display:inline-flex">Explore All Rater Roles &rarr;</a>
+</div>
+<div class="rater-role-preview" aria-label="Examples of rater roles">
+<span>Search &amp; Ads Quality</span>
+<span>LLM &amp; AI Writing Evaluation</span>
+<span>Data &amp; Language Annotation</span>
+<span>Coding &amp; Prompt Design</span>
+</div>
+</div>
 </section>
 
 <!-- DISCLAIMER -->
-<section class="py-14 px-6" style="background:#f0eedf"><div class="max-w-3xl mx-auto reveal"><div class="bg-white border border-blue/15 px-5 py-6 relative"><div class="absolute top-0 left-0 w-1 h-full bg-blue"></div><div class="flex items-start gap-3"><div class="flex-shrink-0 mt-0.5"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#374df5" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg></div><div><h3 class="font-heading font-700 text-sm text-navy mb-3 uppercase tracking-wider">A Friendly Heads-Up</h3><p class="font-body text-warm-gray leading-relaxed text-[16px]">Here we work as independent contractors, so we don't get the perks employees do, such as paid holidays or a fixed salary, and we handle our own taxes. But here's the upside: you can work from wherever you want, whenever you want. Projects can come and go, so sign up for a few platforms to make sure there's always something on the table.</p></div></div></div></div></section>
+<section class="py-10 px-6" style="background:#f0eedf"><div class="max-w-3xl mx-auto reveal"><div class="bg-white border border-blue/15 px-5 py-5 relative"><div class="absolute top-0 left-0 w-1 h-full bg-blue"></div><div class="flex items-start gap-3"><div class="flex-shrink-0 mt-0.5"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#374df5" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg></div><p class="font-body text-warm-gray leading-relaxed text-[15px]"><strong class="text-navy">Independent work:</strong> projects and availability can change, so apply to more than one platform and check the contractor and tax requirements in your country.</p></div></div></div></section>
 
 <!-- GUIDE -->
 <section id="guide" class="py-20 md:py-28 px-6" style="background:#121212"><div class="max-w-4xl mx-auto"><div class="text-center mb-14 reveal"><span class="font-heading text-xs uppercase tracking-[.2em] text-blue">02 — Guide</span><h2 class="font-heading font-800 text-4xl md:text-5xl mt-2 mb-4 text-white">Getting Started</h2><p class="font-body text-lg text-white/40 max-w-xl mx-auto">From zero to first payment.</p></div><div class="space-y-6"><div class="reveal flex gap-6 items-start"><div class="step-number">1</div><div class="flex-1 p-6 border border-white/5" style="background:#222"><h3 class="font-heading font-700 text-lg text-white mb-2">Pick 2–3 Platforms and Apply</h3><p class="font-body text-white/50 leading-relaxed">Don't put all your eggs in one basket. Apply to Outlier and DataAnnotation as primary targets.</p></div></div><div class="reveal flex gap-6 items-start"><div class="step-number">2</div><div class="flex-1 p-6 border border-white/5" style="background:#222"><h3 class="font-heading font-700 text-lg text-white mb-2">Pass the Assessment</h3><p class="font-body text-white/50 leading-relaxed">Most platforms require an entrance test. Read the rubric carefully. Treat it like an exam.</p></div></div><div class="reveal flex gap-6 items-start"><div class="step-number">3</div><div class="flex-1 p-6 border border-white/5" style="background:#222"><h3 class="font-heading font-700 text-lg text-white mb-2">Set Up Your Workspace</h3><p class="font-body text-white/50 leading-relaxed">Reliable computer, stable internet (10+ Mbps), quiet environment. You'll also need to set up a payment method to get paid &mdash; <a href="#" onclick="goPayments();return false;" class="text-blue hover:text-blue-light transition" style="text-decoration:underline">see the payment methods here</a>.</p></div></div><div class="reveal flex gap-6 items-start"><div class="step-number" style="background:#1a9d4e">4</div><div class="flex-1 p-6 border border-white/5" style="background:#222"><h3 class="font-heading font-700 text-lg text-white mb-2">Do Your First Hours</h3><p class="font-body text-white/50 leading-relaxed">Focus on accuracy first — speed comes naturally. After a while you'll get a feel for which tasks pay best.</p></div></div><div class="reveal flex gap-6 items-start"><div class="step-number" style="background:#1a9d4e">5</div><div class="flex-1 p-6 border border-white/5" style="background:#222"><h3 class="font-heading font-700 text-lg text-white mb-2">Scale to Multiple Platforms</h3><p class="font-body text-white/50 leading-relaxed">Once established, add a second platform. Many evaluators work 20–30 hrs/week across 2–3 platforms.</p></div></div></div></div></section>
@@ -158,20 +380,19 @@ body{font-family:'Crimson Pro',serif;background:var(--cream);color:var(--dark);o
 <section id="tips" class="py-20 md:py-28 px-6" style="background:#f0eedf"><div class="max-w-5xl mx-auto"><div class="text-center mb-14 reveal"><span class="font-heading text-xs uppercase tracking-[.2em] text-blue">03 — Tips</span><h2 class="font-heading font-800 text-4xl md:text-5xl mt-2 mb-4 text-navy">Tips for Success</h2></div><div class="grid md:grid-cols-2 gap-6"><div class="reveal bg-white border border-navy/5 overflow-hidden"><div class="emBGG-card" style="padding:10px 18px;font-size:14px">&#9889; Speed Without Sloppiness</div><div class="p-6"><p class="font-body text-warm-gray leading-relaxed">Many companies require at least 90% quality to keep you on a project. A high accuracy rating also unlocks better-paying tasks, one rushed hour can take ten good hours to recover from.</p></div></div><div class="reveal bg-white border border-navy/5 overflow-hidden"><div class="emBGG-card" style="padding:10px 18px;font-size:14px">&#127891; Claim Domain Specialisms</div><div class="p-6"><p class="font-body text-warm-gray leading-relaxed">Degree in math, CS, law, medicine, or finance? Claim it immediately. Domain tasks pay 2–3x base rate.</p></div></div><div class="reveal bg-white border border-navy/5 overflow-hidden"><div class="emBGG-card" style="padding:10px 18px;font-size:14px">&#128176; Track Your Earnings</div><div class="p-6"><p class="font-body text-warm-gray leading-relaxed">Log hours and hourly rate per platform per week. Some "high-paying" tasks end up paying less than simpler ones.</p></div></div><div class="reveal bg-white border border-navy/5 overflow-hidden"><div class="emBGG-card" style="padding:10px 18px;font-size:14px">&#128274; Protect Your Account</div><div class="p-6"><p class="font-body text-warm-gray leading-relaxed">Never share task content publicly. Don't use AI to generate evaluations. Account bans are how evaluators lose income.</p></div></div><div class="reveal bg-white border border-navy/5 overflow-hidden"><div class="emBGG-card" style="padding:10px 18px;font-size:14px">&#9200; Watch for Task Drops</div><div class="p-6"><p class="font-body text-warm-gray leading-relaxed">Most platforms release tasks at specific times, often early morning (US time zone). The best ones go fast.</p></div></div><div class="reveal bg-white border border-navy/5 overflow-hidden"><div class="emBGG-card" style="padding:10px 18px;font-size:14px">&#127760; Leverage Languages</div><div class="p-6"><p class="font-body text-warm-gray leading-relaxed">Two or more languages = massive advantage. Multilingual tasks are less competitive and pay more.</p></div></div></div><div class="mt-12 reveal max-w-3xl mx-auto"><h3 class="font-heading font-700 text-xl text-navy mb-6 text-center">Common Questions</h3><div class="space-y-3"><div class="bg-white border border-navy/5 p-5"><button onclick="toggleFaq(this)" class="w-full flex items-center justify-between text-left"><span class="font-heading font-600 text-navy">Do I need a degree?</span><span class="text-blue font-heading text-xl transition-transform duration-200">&#43;</span></button><div class="hint-content font-body text-warm-gray leading-relaxed">Not on every platform, many don't require a degree at all. It's better if you have particular skills: if you speak several languages or have specialisations, you can be paid far more than other raters.</div></div><div class="bg-white border border-navy/5 p-5"><button onclick="toggleFaq(this)" class="w-full flex items-center justify-between text-left"><span class="font-heading font-600 text-navy">Can I work from any country?</span><span class="text-blue font-heading text-xl transition-transform duration-200">&#43;</span></button><div class="hint-content font-body text-warm-gray leading-relaxed">Every platform has its own rules, but there are plenty of platforms hiring raters globally, so wherever you are there's usually a good option for you.</div></div><div class="bg-white border border-navy/5 p-5"><button onclick="toggleFaq(this)" class="w-full flex items-center justify-between text-left"><span class="font-heading font-600 text-navy">How do I get paid?</span><span class="text-blue font-heading text-xl transition-transform duration-200">&#43;</span></button><div class="hint-content font-body text-warm-gray leading-relaxed">Most platforms pay via PayPal, Payoneer, or Wise. Check the <span onclick="goPayments()" style="color:#374df5;cursor:pointer;text-decoration:underline">Payments page</span> for details.</div></div><div class="bg-white border border-navy/5 p-5"><button onclick="toggleFaq(this)" class="w-full flex items-center justify-between text-left"><span class="font-heading font-600 text-navy">What equipment do I need?</span><span class="text-blue font-heading text-xl transition-transform duration-200">&#43;</span></button><div class="hint-content font-body text-warm-gray leading-relaxed">Computer, 10+ Mbps internet, modern browser. Dual monitors recommended.</div></div></div></div></div></section>
 
 <!-- CTA -->
-<section class="py-20 md:py-28 px-6 relative overflow-hidden" style="background:#121212"><div class="absolute top-0 right-0 w-96 h-96 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" style="background:rgba(55,77,245,.06)"></div><div class="max-w-3xl mx-auto text-center relative z-10 reveal"><h2 class="font-heading font-800 text-4xl md:text-5xl text-white mb-4">Ready to Start?</h2><p class="font-body text-xl text-white/40 mb-10 max-w-lg mx-auto">Pick a platform, apply today, and you could be evaluating AI responses by next week.</p><div class="flex flex-col sm:flex-row items-center justify-center gap-4"><a href="#" onclick="goHome('platforms');return false;" class="emBGG">Browse Platforms</a><a href="#" onclick="goPayments();return false;" class="emBGG-outline" style="border-color:rgba(255,255,255,.15);color:rgba(255,255,255,.6)">Payment Methods</a></div></div></section>
+<section class="conversion-cta relative overflow-hidden" style="background:#121212"><div class="cta-inner relative z-10 reveal"><div><span class="font-heading text-xs uppercase tracking-[.2em] text-blue block mb-3">Your next move</span><h2 class="font-heading font-800 text-white">Your first application can start today.</h2><p class="font-body text-white/50">Choose two platforms that match your skills, apply while roles are open, and keep more than one option active.</p></div><div class="cta-actions"><a href="#" onclick="goHome('platforms');return false;" class="emBGG">Compare &amp; Apply &rarr;</a><a href="#" onclick="goPayments();return false;" class="emBGG-outline" style="border-color:rgba(255,255,255,.2);color:rgba(255,255,255,.72)">Set Up Payments</a></div></div></section>
 
-<footer class="py-12 px-6" style="background:#f0eedf"><div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4"><div class="flex items-center gap-3"><div class="NavLogo-dot"></div><span class="font-heading font-700 text-sm text-navy">Rater<span class="text-blue">Job</span></span></div><p class="font-body text-sm text-warm-gray/50 text-center">Referral links may earn a small bonus at no cost to you. All opinions are independent.</p><div class="flex items-center gap-4"><a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube" class="text-warm-gray hover:text-blue transition"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></a><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram" class="text-warm-gray hover:text-blue transition"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a></div></div></footer>
+<footer class="site-footer"><div class="footer-wrap"><div class="footer-pitch"><h2>Need advice that fits your background?</h2><div><p>Tell me a little about yourself and I’ll help you identify a more realistic starting point.</p><div class="contact-details"><span>Where you are based</span><span>Which languages you speak</span><span>Whether you prefer annotation, transcription, translation, evaluation, or technical work</span></div><button type="button" class="emBGG protected-email-trigger" data-protected-email>Write to me &rarr;</button></div></div><div class="footer-main"><div><a class="footer-brand" href="#" onclick="goHome();return false;">Rater<span style="color:#374df5">Job</span></a><p>Independent guidance for remote AI training, evaluation, and data annotation work.</p></div><div><h3>Explore</h3><div class="footer-links"><a href="#platforms" onclick="goHome('platforms');return false;">Job Platforms</a><a href="/what-is-a-rater" target="_top">What Is a Rater?</a><a href="#guide" onclick="goHome('guide');return false;">Start Guide</a><a href="#tips" onclick="goHome('tips');return false;">Tips</a></div></div><div><h3>Resources</h3><div class="footer-links"><a href="#payments" onclick="goPayments();return false;">Payment Methods</a><a href="#about" onclick="goAbout();return false;">About RaterJob</a><button type="button" class="footer-email protected-email" data-protected-email>Email me</button></div></div><div><h3>Follow</h3><div class="footer-links"><a href="https://x.com/raterjob_pat" target="_blank" rel="noopener noreferrer">Follow me on X · @raterjob_pat ↗</a></div></div></div><div class="footer-bottom"><p>Referral links may earn a small bonus at no cost to you. Recommendations remain independent and availability can change by country and project.</p><span>© 2026 RaterJob</span></div></div></footer>
 </div>
 
 <!-- ===== ABOUT PAGE ===== -->
 <div id="aboutPage" style="display:none;">
-<section class="min-h-screen pt-28 pb-20 px-6" style="background:#f0eedf"><div class="max-w-5xl mx-auto">
+<section class="about-professional"><div class="about-wrap">
 <span class="back-link" onclick="goHome()"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 12L6 8l4-4"/></svg> Back to Home</span>
-<div class="text-center mb-16 mt-10"><span class="font-heading text-xs uppercase tracking-[.2em] text-blue mb-4 block">05 — About</span><h1 class="font-heading font-800 text-4xl md:text-6xl text-navy mb-4">About Me</h1><p class="font-body text-xl text-warm-gray max-w-2xl mx-auto">Who's behind this site and why I built it.</p></div>
-<div class="grid md:grid-cols-[280px_1fr] gap-12 items-start"><div><div class="w-full aspect-square border border-navy/5 overflow-hidden mb-6 bg-white"><img src="/images/cat-at-work.png" alt="A cat wearing sunglasses working at a computer" class="w-full h-full object-cover"></div><div class="flex flex-wrap gap-2"><span class="font-heading text-xs px-3 py-1.5 bg-cream-dark text-warm-gray uppercase tracking-wider">Search Eval</span><span class="font-heading text-xs px-3 py-1.5 bg-cream-dark text-warm-gray uppercase tracking-wider">Translation</span><span class="font-heading text-xs px-3 py-1.5 bg-cream-dark text-warm-gray uppercase tracking-wider">Transcription</span><span class="font-heading text-xs px-3 py-1.5 bg-cream-dark text-warm-gray uppercase tracking-wider">Localization</span><span class="font-heading text-xs px-3 py-1.5 bg-cream-dark text-warm-gray uppercase tracking-wider">LLM Eval</span><span class="font-heading text-xs px-3 py-1.5 bg-cream-dark text-warm-gray uppercase tracking-wider">Annotation</span></div><div class="grid grid-cols-3 gap-3 mt-6"><div class="bg-white p-4 border border-navy/5 text-center"><span class="font-heading font-800 text-2xl text-blue">Since 2018</span><span class="font-heading text-xs text-warm-gray block mt-1 uppercase tracking-wider">Years of Work</span></div><div class="bg-white p-4 border border-navy/5 text-center"><span class="font-heading font-800 text-2xl text-blue">20+</span><span class="font-heading text-xs text-warm-gray block mt-1 uppercase tracking-wider">Platforms</span></div><div class="bg-white p-4 border border-navy/5 text-center"><span class="font-heading font-800 text-2xl text-blue">4</span><span class="font-heading text-xs text-warm-gray block mt-1 uppercase tracking-wider">Task Types</span></div></div></div>
-<div class="space-y-10"><div><h3 class="font-heading font-700 text-xl text-navy mb-4">My Story</h3><div class="space-y-4 font-body text-lg text-warm-gray leading-relaxed"><p>I started in this field back in 2018, working as a search engine evaluator. It was my first glimpse into how the technology we use every day is quietly shaped and refined by real people behind the scenes.</p><p>Over the years I specialized further, moving into translation and transcription for AI and localization projects, and then into LLM evaluation: rating and comparing model responses, and data annotation for AI training. Each new role taught me something about how these systems actually learn.</p><p>Along the way I've collaborated with a huge number of companies and watched many of them grow and evolve, working with the largest Big Tech AI players in the world. I built this site to share what I've learned and help others find honest, tested opportunities in the same space.</p></div></div><div><h3 class="font-heading font-700 text-xl text-navy mb-4">Why This Site</h3><div class="space-y-4 font-body text-lg text-warm-gray leading-relaxed"><p>Every referral link here is one I've personally used or verified. I don't list platforms I haven't tried. If a platform's pay drops or quality declines, I update the info.</p><p>Referral bonuses, when they exist, are small. They help cover running this site. They never cost you anything and never influence my recommendations.</p></div></div><div class="bg-white border border-navy/5 p-6"><h3 class="font-heading font-700 text-lg text-navy mb-3">Get in Touch</h3><p class="font-body text-warm-gray leading-relaxed">Questions? Errors? Want to share your experience?</p><a href="mailto:hello@raterjob.com" class="referral-link font-heading font-600 text-sm text-blue hover:text-blue-light transition mt-3 inline-block">hello@raterjob.com &rarr;</a></div></div></div>
+<div class="about-header"><span class="about-kicker">05 — About RaterJob</span><h1>Human insight for a fast-changing AI world.</h1><p>A sociologist, AI evaluator, and UI/UX designer sharing firsthand experience across data, language, generative AI, and digital products.</p></div>
+<div class="about-layout"><aside class="about-profile"><div class="about-art" aria-hidden="true"><span class="axis"></span><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="core"></span><span class="node node-a"></span><span class="node node-b"></span></div><span class="about-profile-label">Cross-disciplinary experience</span><div class="about-tags"><span>Sociology</span><span>Search Eval</span><span>Data Annotation</span><span>Transcription</span><span>Translation</span><span>Localization</span><span>LLM Eval</span><span>Prompt Design</span><span>UI/UX</span><span>AI Visuals</span></div><div class="about-stats"><div class="about-stat"><strong>Since 2018</strong><span>AI data work</span></div><div class="about-stat"><strong>Sociology</strong><span>Academic background</span></div><div class="about-stat"><strong>AI + UX</strong><span>Human-centered approach</span></div></div></aside><div class="about-copy"><article class="about-panel"><h2>My Path</h2><p>I began working in this field in 2018 as a search engine evaluator, learning how relevance, intent, context, and quality are assessed behind the scenes. My degree in Sociology became a practical advantage: it trained me to understand human behavior, cultural nuance, and the social context behind the way people search, communicate, and use technology.</p><p>From there, I moved into a wider range of online AI projects, working with AI companies as a data annotator, transcriptionist, translator, and localization specialist. Working across languages, text, audio, and culturally sensitive datasets gave me a broad view of how human judgment helps machine-learning systems improve.</p><p>In recent years, I have focused extensively on LLM evaluation, AI writing evaluation, prompt design, and prompt optimization. I compare outputs, identify weaknesses, refine instructions, and help make AI responses more accurate, useful, and natural.</p></article><article class="about-panel about-panel-dark"><h2>Where AI Meets Design</h2><p>I also work as a UI/UX designer. This allows me to contribute to AI projects from another angle: evaluating interfaces, user flows, and the clarity of AI-powered experiences—not only the quality of a model's output.</p><p>I am passionate about technology and constantly experiment with AI tools for image and video creation. This hands-on exploration keeps my perspective current and helps me understand how these tools behave in real creative workflows.</p></article><article class="about-panel"><h2>Why I Built RaterJob</h2><p>RaterJob brings these different experiences together. I created it to help people understand what remote AI roles actually involve, compare credible platforms, and apply with clearer expectations.</p><p>Every recommendation is based on direct experience or careful verification. Referral links may support the site at no cost to the reader, but they never influence my assessment.</p></article><article class="about-panel about-contact"><div><h2>Get in Touch</h2><p>Questions, corrections, or a platform experience to share?</p></div><button type="button" class="about-email-button" data-protected-email>Email me &rarr;</button></article></div></div>
 </div></section>
-<footer class="py-12 px-6" style="background:#121212"><div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4"><div class="flex items-center gap-3"><div class="NavLogo-dot"></div><span class="font-heading font-700 text-sm text-white">Rater<span style="color:#374df5">Job</span></span></div><p class="font-body text-sm text-white/20 text-center">Referral links may earn a small bonus at no cost to you. All opinions are independent.</p><div class="flex items-center gap-4"><a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube" class="text-white/40 hover:text-blue transition"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></a><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram" class="text-white/40 hover:text-blue transition"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a></div></div></footer>
+<footer class="site-footer"><div class="footer-wrap"><div class="footer-pitch"><h2>Clearer choices. Better applications.</h2><div><p>Use the comparison guide, verify the payment setup, and apply to the platforms that fit your skills.</p><a href="#" onclick="goHome('platforms');return false;" class="emBGG">Compare Platforms &rarr;</a></div></div><div class="footer-main"><div><a class="footer-brand" href="#" onclick="goHome();return false;">Rater<span style="color:#374df5">Job</span></a><p>Independent guidance for remote AI training, evaluation, and data annotation work.</p></div><div><h3>Explore</h3><div class="footer-links"><a href="#platforms" onclick="goHome('platforms');return false;">Platforms</a><a href="#guide" onclick="goHome('guide');return false;">Start Guide</a><a href="#tips" onclick="goHome('tips');return false;">Tips</a></div></div><div><h3>Resources</h3><div class="footer-links"><a href="#payments" onclick="goPayments();return false;">Payment Methods</a><a href="#about" onclick="goAbout();return false;">About RaterJob</a><button type="button" class="footer-email protected-email" data-protected-email>Email me</button></div></div><div><h3>Follow</h3><div class="footer-links"><a href="https://x.com/raterjob_pat" target="_blank" rel="noopener noreferrer">Follow me on X · @raterjob_pat ↗</a></div></div></div><div class="footer-bottom"><p>Referral links may earn a small bonus at no cost to you. Recommendations remain independent and availability can change by country and project.</p><span>© 2026 RaterJob</span></div></div></footer>
 </div>
 
 <!-- ===== PAYMENTS PAGE ===== -->
@@ -185,13 +406,186 @@ body{font-family:'Crimson Pro',serif;background:var(--cream);color:var(--dark);o
 <div class="bg-white border border-navy/5 overflow-hidden"><div class="emBGG-card" style="background:#9FE870"><span class="font-heading text-sm" style="color:#163300">Wise (TransferWise)</span></div><div class="p-6"><p class="font-body text-warm-gray leading-relaxed mb-4">Best for international evaluators. Real exchange rate. Local bank details in multiple currencies.</p><div class="grid md:grid-cols-2 gap-4"><div><h4 class="font-heading font-600 text-sm text-navy mb-2 uppercase tracking-wider">Pros</h4><ul class="font-body text-warm-gray text-sm space-y-1"><li>&#10003; Real mid-market rate</li><li>&#10003; Lowest conversion fees</li></ul></div><div><h4 class="font-heading font-600 text-sm text-navy mb-2 uppercase tracking-wider">Cons</h4><ul class="font-body text-warm-gray text-sm space-y-1"><li>&#10007; Not accepted by all platforms</li><li>&#10007; Small per-transfer fee</li></ul></div></div><a href="https://wise.com/" target="_blank" rel="noopener" class="emBGG" style="margin-top:20px;display:inline-flex;background:#163300">Create a Wise Account &rarr;</a></div></div>
 <div class="bg-white border border-navy/5 overflow-hidden"><div class="emBGG-card" style="background:#15357A"><span class="font-heading text-sm">Deel</span></div><div class="p-6"><p class="font-body text-warm-gray leading-relaxed mb-4">Handles compliance, contracts, and payments. Crypto withdrawal available.</p><div class="grid md:grid-cols-2 gap-4"><div><h4 class="font-heading font-600 text-sm text-navy mb-2 uppercase tracking-wider">Pros</h4><ul class="font-body text-warm-gray text-sm space-y-1"><li>&#10003; Tax compliance</li><li>&#10003; Crypto withdrawal</li></ul></div><div><h4 class="font-heading font-600 text-sm text-navy mb-2 uppercase tracking-wider">Cons</h4><ul class="font-body text-warm-gray text-sm space-y-1"><li>&#10007; Only specific platforms</li><li>&#10007; Withdrawal fees vary</li></ul></div></div><div class="mt-4 pt-4 border-t border-navy/5"><span class="font-heading text-xs text-navy/40 uppercase tracking-wider">Used by</span><span class="font-body text-sm text-warm-gray ml-2"><a href="https://www.alignerr.com/" target="_blank" rel="noopener" class="plat-ref">Alignerr</a> · <a href="https://mercor.com/" target="_blank" rel="noopener" class="plat-ref">Mercor</a></span></div><a href="https://www.deel.com/" target="_blank" rel="noopener" class="emBGG" style="margin-top:20px;display:inline-flex;background:#15357A">Create a Deel Account &rarr;</a></div></div>
 <div class="bg-white border border-navy/5 overflow-hidden"><div class="emBGG-card" style="background:#121212"><span class="font-heading text-sm">Direct Bank Transfer</span></div><div class="p-6"><p class="font-body text-warm-gray leading-relaxed mb-4">Some platforms pay directly via ACH or wire. No intermediate service. Most reliable for US-based evaluators.</p><div class="grid md:grid-cols-2 gap-4"><div><h4 class="font-heading font-600 text-sm text-navy mb-2 uppercase tracking-wider">Pros</h4><ul class="font-body text-warm-gray text-sm space-y-1"><li>&#10003; No third-party fees</li><li>&#10003; Money straight to bank</li></ul></div><div><h4 class="font-heading font-600 text-sm text-navy mb-2 uppercase tracking-wider">Cons</h4><ul class="font-body text-warm-gray text-sm space-y-1"><li>&#10007; Only US/EU banks</li><li>&#10007; Slower (3–5 days)</li></ul></div></div><a href="#" onclick="goHome('platforms');return false;" class="emBGG" style="margin-top:20px;display:inline-flex;background:#121212">Add Bank Details on a Platform &rarr;</a></div></div>
+<aside class="revolut-feature" aria-label="Revolut referral offer"><img src="/revolut-card.png" alt="Revolut physical card" class="revolut-card-image"><div class="revolut-copy"><span>Referral offer</span><h3>Sign up for Revolut</h3><p>Open a Revolut account through my referral link and manage transfers, supported currencies, and everyday spending from one app.</p><small>This is a referral link. I may receive a reward if you register and complete the required steps. Eligibility, deadlines, features, fees, and terms vary by country.</small></div><a href="https://revolut.com/referral/?referral-code=patriz4pcl!AUG1-26-AR-L1&amp;geo-redirect" target="_blank" rel="sponsored noopener noreferrer" class="emBGG">Sign up for Revolut &rarr;</a></aside>
 </div>
 <div class="mt-14 bg-white border border-navy/5 p-6"><h3 class="font-heading font-700 text-lg text-navy mb-4 uppercase tracking-wider">Payment Tips</h3><div class="space-y-3 font-body text-warm-gray leading-relaxed"><p><strong class="text-navy">Set up PayPal first.</strong> It's accepted by almost every platform. Get it verified before applying.</p><p><strong class="text-navy">If you're outside the US, add Payoneer.</strong> Better exchange rates. The annual fee pays for itself quickly.</p><p><strong class="text-navy">Use Wise for large transfers.</strong> Earning $2,000+/month and converting currencies? Wise's real rate saves significant money.</p><p><strong class="text-navy">Set aside 25–30% for taxes.</strong> You're a contractor, no one withholds for you.</p></div></div>
 </div></section>
-<footer class="py-12 px-6" style="background:#121212"><div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4"><div class="flex items-center gap-3"><div class="NavLogo-dot"></div><span class="font-heading font-700 text-sm text-white">Rater<span style="color:#374df5">Job</span></span></div><p class="font-body text-sm text-white/20 text-center">Referral links may earn a small bonus at no cost to you. All opinions are independent.</p><div class="flex items-center gap-4"><a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube" class="text-white/40 hover:text-blue transition"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></a><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram" class="text-white/40 hover:text-blue transition"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a></div></div></footer>
+<footer class="site-footer"><div class="footer-wrap"><div class="footer-pitch"><h2>Ready before the first task arrives?</h2><div><p>Set up the right payment method now, then apply without adding another delay to your start.</p><a href="#" onclick="goHome('platforms');return false;" class="emBGG">Browse Platforms &rarr;</a></div></div><div class="footer-main"><div><a class="footer-brand" href="#" onclick="goHome();return false;">Rater<span style="color:#374df5">Job</span></a><p>Independent guidance for remote AI training, evaluation, and data annotation work.</p></div><div><h3>Explore</h3><div class="footer-links"><a href="#platforms" onclick="goHome('platforms');return false;">Platforms</a><a href="#guide" onclick="goHome('guide');return false;">Start Guide</a><a href="#tips" onclick="goHome('tips');return false;">Tips</a></div></div><div><h3>Resources</h3><div class="footer-links"><a href="#payments" onclick="goPayments();return false;">Payment Methods</a><a href="#about" onclick="goAbout();return false;">About RaterJob</a><button type="button" class="footer-email protected-email" data-protected-email>Email me</button></div></div><div><h3>Follow</h3><div class="footer-links"><a href="https://x.com/raterjob_pat" target="_blank" rel="noopener noreferrer">Follow me on X · @raterjob_pat ↗</a></div></div></div><div class="footer-bottom"><p>Referral links may earn a small bonus at no cost to you. Recommendations remain independent and availability can change by country and project.</p><span>© 2026 RaterJob</span></div></div></footer>
 </div>
 
 <script>
+// EDIT THIS ONE LINE whenever you want to change the scrolling headline.
+var featuredJob = 'MERCOR IS HIRING · DATA ANNOTATORS & SPECIALIZED TECHNICAL ROLES · REMOTE · APPLY FROM THE PLATFORMS SECTION';
+document.querySelectorAll('#featuredJobTicker .ticker-item').forEach(function(item){item.textContent=featuredJob;});
+
+var platformEnhancements={
+  'Outlier':{
+    description:'Flexible, project-based LLM work: rank outputs, improve responses, write prompts, or handle coding and math tasks. A strong option for both generalists and specialists, with weekly pay and no fixed minimum hours.',
+    note:'Legitimate and often well paid; task availability and project continuity can be unpredictable.'
+  },
+  'Mercor':{
+    description:'Matches professionals to remote AI contracts that fit their domain expertise. Screening often includes an AI or video interview, and the strongest opportunities tend to favor technical or highly specialized profiles.',
+    note:'Payments are generally reported as reliable; selection and project organization can feel inconsistent.'
+  },
+  'DataAnnotation.tech':{
+    description:'Rate and rank model outputs, create prompts, fact-check responses, and access coding or specialist tracks after qualifying. Work is self-paced and especially attractive for strong writers, researchers, and subject experts.',
+    note:'Some contributors report long stretches of steady work, but queues are never guaranteed and feedback is limited.'
+  },
+  'Alignerr':{
+    description:'A Labelbox-powered expert network for structured labeling and evaluation across text, image, and audio. It is designed around specialist knowledge, multilingual skills, and asynchronous project work.',
+    note:'Onboarding is clear once matched, but waiting between assessment and a first project is common.'
+  },
+  'Telus International':{
+    description:'Now TELUS Digital, its AI Community hires for search quality, ads and content rating, and data tasks. Roles are country-specific, with formal guidelines and an exam before most long-running projects.',
+    note:'A legitimate, comparatively structured option; the exam is demanding and available hours vary by locale.',
+    url:'https://jobs.telusdigital.com/en/search/cfm5/ai-community/jobs'
+  },
+  'Appen':{
+    description:'CrowdGen by Appen offers global projects in speech, image, search, data collection, and model evaluation. There are many locales and task types, although each project has its own qualification flow.',
+    note:'Wide geographic access, but dashboards and task availability can be uneven. It is best used alongside other job platforms.',
+    url:'https://crowdgen.com/'
+  },
+  'OneForma':{
+    description:'Centific’s marketplace is strongest in language work, translation, speech collection, search evaluation, and multilingual AI projects. Certifications matter, especially when they match your locale and specialist skills.',
+    note:'Real projects are available, but contributors also report long waits and occasional support friction.'
+  },
+  'Turing.ai':{
+    description:'A remote talent network geared toward developers and domain experts, including AI training, coding evaluation, and code review. Vetting is deeper than on generalist platforms and assignments are usually contract-based.',
+    note:'Legitimate opportunities exist, with stricter screening and time-monitoring expectations on some roles.',
+    url:'https://work.turing.com/'
+  },
+  'Mindrift':{
+    description:'A Toloka-backed expert network for writing, reasoning, fact-checking, and domain-specific AI evaluation. Applications and project invitations are matched to skills rather than offered as an open task marketplace.',
+    note:'Project invitations can arrive in waves and differ substantially by language and domain.'
+  },
+  'Prolific':{
+    description:'Not a traditional annotation platform: Prolific offers paid research and AI studies with study-level compensation shown before you participate. It is useful for filling gaps between longer projects.',
+    note:'Known for clearer study and payment information, though availability depends heavily on your profile.'
+  },
+  'Welocalize':{
+    description:'An established localization company offering search quality rating, ads evaluation, language data, and AI projects. Most roles are tied to a specific country, language, and weekly-hour range.',
+    note:'Legitimate and structured, but hours can be capped or sporadic depending on the program.'
+  },
+  'RWS (TrainAI)':{
+    description:'RWS TrainAI recruits for multilingual data collection, annotation, search, and LLM evaluation. It is particularly relevant for linguists and contributors with strong local-market knowledge.',
+    note:'Projects can be long-running, but onboarding times and active task cycles vary.'
+  },
+  'Meridial by Invisible':{
+    description:'Invisible Technologies’ vetted expert network connects specialists in law, STEM, finance, coding, linguistics, safety, and other fields with remote AI training projects from frontier labs. Work may include rating outputs, writing domain tests, labeling data, and reviewing safety.',
+    note:'The network is still relatively new and independent feedback is limited. Completing a profile does not guarantee immediate work because invitations depend on current project matching.',
+    url:'https://www.meridial.ai/projects'
+  },
+  'Babel Audio':{
+    description:'A voice-data platform offering remote audio recording, natural conversation, and structured transcription projects used to train speech AI. Openings vary by language and location, and payment is generally calculated per recorded or annotated hour.',
+    note:'Contributors often praise flexible scheduling and weekly payouts. Reviews also mention uneven project availability, strict audio-quality checks, technical issues, and occasional removals without detailed feedback.',
+    url:'https://www.babel.audio/'
+  }
+};
+
+document.querySelectorAll('.platform-card').forEach(function(card){
+  var title=card.querySelector('.emBGG-card span');
+  if(!title)return;
+  var data=platformEnhancements[title.textContent.trim()];
+  var paragraphs=card.querySelectorAll('.p-6 > p');
+  if(data&&paragraphs[1])paragraphs[1].textContent=data.description;
+  if(data){
+    var note=document.createElement('p');
+    note.className='community-note';
+    note.innerHTML='<strong>Community note</strong><br>'+data.note;
+    var footer=card.querySelector('.flex.items-center.justify-between');
+    if(footer)footer.parentNode.insertBefore(note,footer);
+  }
+  var apply=card.querySelector('a.referral-link');
+  if(apply){if(data&&data.url)apply.href=data.url;apply.classList.add('platform-apply');apply.innerHTML='Apply now&nbsp; ↗';apply.setAttribute('aria-label','Apply to '+title.textContent.trim());}
+});
+
+document.querySelectorAll('.site-footer .footer-main').forEach(function(footer){
+  var brandColumn=footer.firstElementChild;
+  if(!brandColumn)return;
+  var links=document.createElement('div');
+  links.className='footer-legal-links';
+  links.innerHTML='<a href="/privacy" target="_top">Privacy Policy</a><a href="/cookie-policy" target="_top">Cookie Policy</a><a href="/legal" target="_top">Legal Notice</a>';
+  brandColumn.appendChild(links);
+});
+
+document.querySelectorAll('.site-footer .footer-main').forEach(function(footer){
+  var explore=footer.querySelector('.footer-links');
+  if(!explore)return;
+  if(explore.firstElementChild&&explore.firstElementChild.textContent.trim()==='Platforms'){
+    explore.firstElementChild.textContent='Job Platforms';
+  }
+  if(!explore.querySelector('a[href="/what-is-a-rater"]')){
+    var roleLink=document.createElement('a');
+    roleLink.href='/what-is-a-rater';
+    roleLink.target='_top';
+    roleLink.textContent='What Is a Rater?';
+    explore.insertBefore(roleLink,explore.children[1]||null);
+  }
+});
+
+if(localStorage.getItem('raterjob-cookie-notice-v1')!=='dismissed'){
+  var cookieBanner=document.createElement('aside');
+  cookieBanner.className='cookie-banner';
+  cookieBanner.setAttribute('aria-label','Cookie notice');
+  cookieBanner.innerHTML='<div><strong>Cookie notice</strong><p>RaterJob currently uses only technical storage needed to provide the site. We do not use advertising, profiling, or visitor analytics cookies.</p><a href="/cookie-policy" target="_top">Read the Cookie Policy</a></div><button type="button">Got it</button>';
+  cookieBanner.querySelector('button').addEventListener('click',function(){
+    localStorage.setItem('raterjob-cookie-notice-v1','dismissed');
+    cookieBanner.classList.remove('show');
+  });
+  document.body.appendChild(cookieBanner);
+  requestAnimationFrame(function(){cookieBanner.classList.add('show');});
+}
+
+var textWalker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+var textNode;
+while((textNode=textWalker.nextNode())){
+  textNode.nodeValue=textNode.nodeValue
+    .replace(/(\d{2})\s*[—–]\s*/g,'$1 · ')
+    .replace(/(\d)\s*[—–]\s*(\d)/g,'$1 to $2')
+    .replace(/\s*[—–]\s*/g,', ');
+}
+
+var sectionLabels={guide:'03 · Guide',tips:'04 · Tips'};
+Object.keys(sectionLabels).forEach(function(id){
+  var label=document.querySelector('#'+id+' .tracking-\\[\\.2em\\]');
+  if(label)label.textContent=sectionLabels[id];
+});
+var aboutLabel=document.querySelector('#aboutPage .about-kicker');
+if(aboutLabel)aboutLabel.textContent='06 · About RaterJob';
+var paymentLabel=document.querySelector('#paymentsPage .tracking-\\[\\.2em\\]');
+if(paymentLabel)paymentLabel.textContent='05 · Payments';
+document.querySelectorAll('a,button,#hero .grid span').forEach(function(el){
+  if(el.children.length===0&&/\bPlatforms\b/.test(el.textContent)&&!/\bJob Platforms\b/.test(el.textContent)){
+    el.textContent=el.textContent.replace(/\bPlatforms\b/g,'Job Platforms');
+  }
+});
+
+document.querySelectorAll('[data-protected-email]').forEach(function(button){
+  button.addEventListener('click',function(){
+    var address=[104,101,108,108,111,64,114,97,116,101,114,106,111,98,46,99,111,109].map(function(code){return String.fromCharCode(code);}).join('');
+    var subject='RaterJob: personalized guidance';
+    var body='Country or region:%0A%0ALanguages:%0A%0AI am interested in:%0A%0AMy question:';
+    window.location.href='mailto:'+address+'?subject='+encodeURIComponent(subject)+'&body='+body;
+  });
+});
+
+document.querySelectorAll('section[style*="background:#121212"]').forEach(function(section){
+  section.classList.add('dark-animated');
+  var geometry=document.createElement('div');
+  geometry.className='dark-geometry';
+  geometry.setAttribute('aria-hidden','true');
+  geometry.innerHTML='<span class="geo-square"></span><span class="geo-ring"></span><span class="geo-cross"></span>';
+  section.insertBefore(geometry,section.firstChild);
+});
+
+function updateScrollProgress(){
+  var height=document.documentElement.scrollHeight-window.innerHeight;
+  var progress=height>0?(window.scrollY/height)*100:0;
+  document.getElementById('scrollProgress').style.width=progress+'%';
+}
+window.addEventListener('scroll',updateScrollProgress,{passive:true});
+updateScrollProgress();
+
 function hideAllPages(){document.getElementById('mainPage').style.display='none';document.getElementById('aboutPage').style.display='none';document.getElementById('paymentsPage').style.display='none';}
 function goAbout(){hideAllPages();document.getElementById('aboutPage').style.display='block';window.scrollTo(0,0);setActiveNav('about');history.pushState({page:'about'},'','#about');document.querySelector('.HeaderNavigation').classList.remove('open');}
 function goPayments(){hideAllPages();document.getElementById('paymentsPage').style.display='block';window.scrollTo(0,0);setActiveNav('payments');history.pushState({page:'payments'},'','#payments');document.querySelector('.HeaderNavigation').classList.remove('open');}

@@ -1,9 +1,11 @@
-export default function Page() {
+export default function Home() {
   return (
-    <iframe
-      src="/index.html"
-      title="RaterJob"
-      style={{ border: "none", width: "100vw", height: "100vh", display: "block" }}
-    />
-  )
+    <main className="site-shell">
+      <iframe
+        src="/index.html"
+        title="RaterJob: Remote AI Training & Data Annotation Jobs"
+        className="site-frame"
+      />
+    </main>
+  );
 }
